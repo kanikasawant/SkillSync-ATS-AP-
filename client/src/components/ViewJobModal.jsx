@@ -6,7 +6,7 @@ export default function ViewJobModal({ job, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-xs animate-in fade-in duration-200">
-      <div className="bg-white rounded-3xl max-w-2xl w-full border border-slate-100 shadow-2xl overflow-hidden">
+      <div className="bg-white rounded-3xl max-w-2xl w-full border border-slate-100 shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
         {/* Modal Header */}
         <div className="p-6 bg-gradient-to-r from-indigo-900 to-slate-900 text-white flex items-start justify-between relative overflow-hidden">
           <div className="relative z-10">

@@ -12,7 +12,6 @@ import ViewJobModal from './components/ViewJobModal';
 import CandidatesView from './components/CandidatesView';
 import InterviewsView from './components/InterviewsView';
 import UsersView from './components/UsersView';
-import AiUsageView from './components/AiUsageView';
 import SystemSettingsView from './components/SystemSettingsView';
 import SettingsView from './components/SettingsView';
 import CommandPalette from './components/CommandPalette';
@@ -41,6 +40,7 @@ export default function App() {
 
   const [searchQuery, setSearchQuery] = useState('');
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
+  const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [toast, setToast] = useState(null);
 
   const showToast = (message) => {
@@ -147,6 +147,8 @@ export default function App() {
         }}
         onSignOut={() => showToast('Simulated Sign Out executed.')}
         onOpenSupport={() => showToast('TalentAI Support Center: Contact support@talentai.io')}
+        isOpen={isMobileSidebarOpen}
+        onClose={() => setIsMobileSidebarOpen(false)}
       />
 
       {/* Main Content Area */}
@@ -158,10 +160,11 @@ export default function App() {
           onNewEntity={() => {
             setActiveTab('onboard_organization');
           }}
+          onToggleMobileMenu={() => setIsMobileSidebarOpen(prev => !prev)}
         />
 
         {/* Main Body */}
-        <main className="flex-1 p-8 max-w-7xl w-full mx-auto">
+        <main className="flex-1 p-4 sm:p-6 md:p-8 max-w-7xl w-full mx-auto">
           {activeTab === 'dashboard' && (
             <DashboardView
               onSelectCandidate={(cand) => {
@@ -296,10 +299,6 @@ export default function App() {
 
           {activeTab === 'users' && (
             <UsersView onShowToast={showToast} />
-          )}
-
-          {activeTab === 'ai_usage' && (
-            <AiUsageView />
           )}
 
           {activeTab === 'settings' && (
