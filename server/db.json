@@ -1,0 +1,257 @@
+{
+  "jobs": [
+    {
+      "id": "REQ-2024-089",
+      "title": "Frontend Developer",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "locationType": "onsite",
+      "experience": "2–4 Years",
+      "applicantsCount": 86,
+      "newApplicants": "+12 new",
+      "status": "Active",
+      "iconType": "code",
+      "salary": "₹12L - ₹18L",
+      "description": "We are looking for a skilled Frontend Developer proficient in React, Tailwind CSS, and TypeScript to build scalable Web UIs."
+    },
+    {
+      "id": "REQ-2024-090",
+      "title": "Backend Developer",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "locationType": "onsite",
+      "experience": "3–5 Years",
+      "applicantsCount": 64,
+      "newApplicants": "+8 new",
+      "status": "Active",
+      "iconType": "server",
+      "salary": "₹15L - ₹22L",
+      "description": "Join our core platform engineering group working on high throughput Node.js & Go microservices."
+    },
+    {
+      "id": "REQ-2024-072",
+      "title": "UI/UX Designer",
+      "department": "Design",
+      "location": "Remote",
+      "locationType": "remote",
+      "experience": "1–3 Years",
+      "applicantsCount": 42,
+      "newApplicants": null,
+      "statusText": "Finalized",
+      "status": "Closed",
+      "iconType": "palette",
+      "salary": "₹10L - ₹14L",
+      "description": "Lead design systems, high-fidelity Figma mockups, and candidate interaction workflows."
+    },
+    {
+      "id": "REQ-2024-094",
+      "title": "Full Stack Tech Lead",
+      "department": "Engineering",
+      "location": "Bengaluru",
+      "locationType": "onsite",
+      "experience": "5–8 Years",
+      "applicantsCount": 51,
+      "newApplicants": "+5 new",
+      "status": "Active",
+      "iconType": "compass",
+      "salary": "₹28L - ₹40L",
+      "description": "Drive technical architecture across frontend and backend services while mentoring team members."
+    },
+    {
+      "id": "REQ-2024-098",
+      "title": "Product Manager",
+      "department": "Product",
+      "location": "Mumbai",
+      "locationType": "onsite",
+      "experience": "3–6 Years",
+      "applicantsCount": 29,
+      "newApplicants": "+3 new",
+      "status": "Active",
+      "iconType": "chart",
+      "salary": "₹20L - ₹30L",
+      "description": "Define product roadmaps for our AI-assisted recruitment engine and platform telemetry."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "SS-4892",
+      "name": "Aarav Mehta",
+      "email": "aarav.mehta@example.com",
+      "phone": "+91 98201 44821",
+      "role": "Senior Frontend Developer",
+      "appliedFor": "Frontend Developer",
+      "experience": "3 Years Experience",
+      "experienceYears": 3,
+      "location": "Mumbai, India",
+      "locationDetail": "Mumbai, India (Open to Remote / Hybrid)",
+      "status": "Rejected",
+      "readyToInterview": true,
+      "initials": "AM",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=250&auto=format&fit=crop",
+      "aiScore": 87,
+      "aiLabel": "94% Elite Match",
+      "aiTier": "Elite",
+      "github": "github.com/aaravmehta",
+      "linkedin": "LinkedIn Profile",
+      "portfolio": "aaravcodes.dev",
+      "experienceHistory": [
+        {
+          "role": "Frontend Developer",
+          "company": "TechVentures",
+          "location": "Mumbai, India",
+          "period": "2022 — Present (2 yrs)",
+          "bullets": "Led frontend migration of core customer-facing apps to Next.js and Tailwind CSS, reducing JavaScript bundle sizes by 35%.",
+          "tags": [
+            "Next.js",
+            "Tailwind CSS",
+            "Redux Toolkit",
+            "Performance Audit"
+          ]
+        }
+      ],
+      "skills": [
+        "React",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Next.js",
+        "Redux Toolkit",
+        "Tailwind CSS"
+      ],
+      "projects": [
+        {
+          "name": "FinFlow Analytics",
+          "badge": "★ 450+",
+          "description": "Algorithmic trading monitoring dashboard built with React, WebSockets real-time feeds.",
+          "tech": "React • WebSockets",
+          "link": "https://github.com"
+        }
+      ],
+      "education": {
+        "degree": "Bachelor of Technology in Computer Science",
+        "period": "2017 — 2021",
+        "institution": "University of Mumbai • Mumbai, India",
+        "cgpa": "CGPA 8.8 / 10"
+      },
+      "aiBreakdown": {
+        "weightedFit": 87,
+        "confidence": [
+          {
+            "skill": "React Core Architecture",
+            "percentage": 95,
+            "color": "bg-emerald-500"
+          },
+          {
+            "skill": "JavaScript / TypeScript",
+            "percentage": 92,
+            "color": "bg-emerald-500"
+          },
+          {
+            "skill": "Node.js",
+            "percentage": 85,
+            "color": "bg-indigo-600"
+          }
+        ],
+        "matchedSkills": [
+          "React",
+          "JavaScript",
+          "TypeScript",
+          "Node.js",
+          "REST APIs"
+        ],
+        "identifiedGaps": [
+          "Docker",
+          "Cloud Deployment"
+        ],
+        "advisoryNote": "Strong frontend fit with good React and JavaScript experience."
+      }
+    },
+    {
+      "id": "SS-4893",
+      "name": "Riya Shah",
+      "email": "riya.shah@example.com",
+      "phone": "+91 98334 11209",
+      "role": "React Developer",
+      "appliedFor": "React Developer",
+      "experience": "2 Years Experience",
+      "experienceYears": 2,
+      "location": "Mumbai, India",
+      "status": "Shortlisted",
+      "readyToInterview": false,
+      "initials": "RS",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=250&auto=format&fit=crop",
+      "aiScore": 87,
+      "aiLabel": "87% High Fit",
+      "aiTier": "High Fit"
+    },
+    {
+      "id": "SS-4894",
+      "name": "Karan Patel",
+      "email": "karan.p@example.com",
+      "phone": "+91 98112 33455",
+      "role": "Backend Developer",
+      "appliedFor": "Backend Developer",
+      "experience": "4 Years Experience",
+      "experienceYears": 4,
+      "location": "Mumbai, India",
+      "status": "Interview",
+      "readyToInterview": true,
+      "initials": "KP",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=250&auto=format&fit=crop",
+      "aiScore": 84,
+      "aiLabel": "84% Strong Match",
+      "aiTier": "Strong Match"
+    },
+    {
+      "id": "SS-4895",
+      "name": "Neha Joshi",
+      "email": "neha.j@example.com",
+      "phone": "+91 97665 44321",
+      "role": "Full Stack Developer",
+      "appliedFor": "Full Stack Developer",
+      "experience": "3 Years Experience",
+      "experienceYears": 3,
+      "location": "Bengaluru, India",
+      "status": "Under Review",
+      "readyToInterview": false,
+      "initials": "NJ",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=250&auto=format&fit=crop",
+      "aiScore": 78,
+      "aiLabel": "78% Moderate Fit",
+      "aiTier": "Moderate Fit"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "INT-1",
+      "candidateName": "Aarav Mehta",
+      "role": "Frontend Developer",
+      "time": "Today, 2:00 PM",
+      "isToday": true,
+      "interviewer": "Sarah Jenkins (Recruiter)",
+      "platform": "Google Meet",
+      "meetLink": "https://meet.google.com/abc-defg-hij",
+      "status": "Scheduled"
+    },
+    {
+      "id": "INT-2",
+      "candidateName": "Karan Patel",
+      "role": "Backend Developer",
+      "time": "Today, 4:30 PM",
+      "isToday": true,
+      "interviewer": "Alex Rivera (Tech Lead)",
+      "platform": "Google Meet",
+      "meetLink": "https://meet.google.com/xyz-uvwx-rst",
+      "status": "Scheduled"
+    }
+  ],
+  "settings": {
+    "notifications": {
+      "emailAlerts": true,
+      "candidateApplyAlert": true,
+      "interviewReminders": true,
+      "dailyDigest": false
+    },
+    "companyName": "Acme Corp",
+    "timezone": "Asia/Kolkata (GMT+5:30)"
+  }
+}
