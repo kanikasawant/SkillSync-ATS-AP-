@@ -2,21 +2,25 @@
 .env
 .env.*
 !.env.example
-*.env
-*.env.*
+client/.env
+client/.env.*
+!client/.env.example
 server/.env
 server/.env.*
 !server/.env.example
 
 # Dependency directories
 node_modules/
+client/node_modules/
 server/node_modules/
 
 # Build & production output
 dist/
+client/dist/
 dist-ssr/
 build/
 .vite/
+client/.vite/
 
 # Logs & debugging
 logs/
