@@ -180,8 +180,8 @@ export default function OrganizationsDirectory({
         </div>
       </div>
 
-      {/* 4 Summary KPI Stat Cards with SVG Sparklines */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {/* Summary KPI Stat Cards with SVG Sparklines */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* Card 1: Total Organizations */}
         <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all duration-200 relative overflow-hidden group">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-indigo-600" />
@@ -256,30 +256,6 @@ export default function OrganizationsDirectory({
             </div>
             <div className="opacity-80 group-hover:opacity-100 transition-opacity">
               <SvgSparkline color="#EF4444" data={[8, 12, 10, 15, 14, 18, 16, 20, 15, 14]} />
-            </div>
-          </div>
-        </div>
-
-        {/* Card 4: Total AI Tokens */}
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all duration-200 relative overflow-hidden group">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-indigo-600" />
-          <div className="flex items-center justify-between">
-            <span className="text-[11px] font-bold tracking-wider text-slate-400 uppercase">
-              TOTAL AI TOKENS (30D)
-            </span>
-            <div className="w-7 h-7 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center">
-              <Sparkles className="w-3.5 h-3.5" />
-            </div>
-          </div>
-
-          <div className="flex items-end justify-between mt-3">
-            <div>
-              <span className="text-3xl font-bold font-serif text-slate-900">
-                {organizations.length > 0 ? `${(organizations.length * 1.5).toFixed(1)}M` : '0.0M'}
-              </span>
-            </div>
-            <div className="opacity-80 group-hover:opacity-100 transition-opacity">
-              <SvgSparkline color="#8B5CF6" data={[15, 20, 25, 22, 30, 35, 40, 48, 55, 60]} />
             </div>
           </div>
         </div>

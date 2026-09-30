@@ -173,6 +173,7 @@ export default function App() {
               }}
               onNavigateCandidates={() => setActiveTab('candidates')}
               onScheduleInterview={() => setActiveTab('interviews')}
+              onShowToast={showToast}
             />
           )}
 
@@ -202,7 +203,7 @@ export default function App() {
             />
           )}
 
-          {activeTab === 'jobs' && (
+          {/* {activeTab === 'jobs' && (
             <div className="space-y-6">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
@@ -264,20 +265,20 @@ export default function App() {
                 onClose={() => setViewingJob(null)}
               />
             </div>
-          )}
+          )} */}
 
-          {activeTab === 'candidates' && (
+          {/* {activeTab === 'candidates' && (
             <CandidatesView 
               selectedCandidate={selectedCandidate}
               onSelectCandidate={(cand) => setSelectedCandidate(cand)}
               onClearSelectedCandidate={() => setSelectedCandidate(null)}
               onShowToast={showToast}
             />
-          )}
+          )} */}
 
-          {activeTab === 'interviews' && (
+          {/* {activeTab === 'interviews' && (
             <InterviewsView onShowToast={showToast} />
-          )}
+          )} */}
 
           {activeTab === 'onboard_organization' && (
             <OnboardOrganizationView 
@@ -297,9 +298,9 @@ export default function App() {
             />
           )}
 
-          {activeTab === 'users' && (
+          {/* {activeTab === 'users' && (
             <UsersView onShowToast={showToast} />
-          )}
+          )} */}
 
           {activeTab === 'settings' && (
             <SettingsView initialOrgId={selectedOrgId} onShowToast={showToast} />

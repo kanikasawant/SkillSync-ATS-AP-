@@ -15,10 +15,10 @@ export default function Sidebar({ activeTab, setActiveTab, onSignOut, onOpenSupp
   const navItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
     { id: 'organizations', label: 'Organizations', icon: Building2 },
-    { id: 'jobs', label: 'Jobs', icon: Briefcase },
-    { id: 'candidates', label: 'Candidates', icon: Users },
-    { id: 'interviews', label: 'Interviews', icon: Calendar },
-    { id: 'users', label: 'Users', icon: Users },
+    // { id: 'jobs', label: 'Jobs', icon: Briefcase },
+    // { id: 'candidates', label: 'Candidates', icon: Users },
+    // { id: 'interviews', label: 'Interviews', icon: Calendar },
+    // { id: 'users', label: 'Users', icon: Users },
     { id: 'settings', label: 'System Settings', icon: Settings },
   ];
 
