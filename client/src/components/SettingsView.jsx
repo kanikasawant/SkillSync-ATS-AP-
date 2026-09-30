@@ -404,7 +404,7 @@ export default function SettingsView({ initialOrgId, onShowToast }) {
               </div>
 
               {/* Legal Name & Industry */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                     Company Legal Name *
@@ -439,7 +439,7 @@ export default function SettingsView({ initialOrgId, onShowToast }) {
               </div>
 
               {/* Website & Status */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                     Company Website
@@ -473,7 +473,7 @@ export default function SettingsView({ initialOrgId, onShowToast }) {
               </div>
 
               {/* Company Size & Description / Address */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
                     Company Size

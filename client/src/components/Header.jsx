@@ -14,8 +14,9 @@ export default function Header({ searchQuery, setSearchQuery, onNewEntity, onTog
           <Menu className="w-5 h-5" />
         </button>
 
-        <h2 className="text-base sm:text-xl font-bold font-serif text-slate-900 tracking-tight truncate max-w-[160px] sm:max-w-none">
-          TalentAI Control Plane
+        <h2 className="text-sm sm:text-xl font-bold font-serif text-slate-900 tracking-tight leading-tight flex flex-col sm:flex-row sm:items-center sm:gap-1.5">
+          <span>TalentAI</span>
+          <span className="text-[11px] sm:text-xl font-medium sm:font-bold text-slate-500 sm:text-slate-900">Control Plane</span>
         </h2>
       </div>
 

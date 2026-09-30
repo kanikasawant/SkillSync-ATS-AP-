@@ -308,9 +308,9 @@ export default function OrganizationsDirectory({
         </div>
 
         {/* Right Dropdowns & Download */}
-        <div className="flex items-center gap-4 shrink-0">
-          <div className="flex items-center gap-2">
-            <label className="text-xs font-bold text-slate-500">Status:</label>
+        <div className="flex flex-wrap items-center justify-between sm:justify-start gap-2 sm:gap-3 w-full md:w-auto">
+          <div className="flex items-center gap-1.5 min-w-0">
+            <label className="text-xs font-bold text-slate-500 shrink-0">Status:</label>
             <CustomDropdown
               value={statusFilter}
               onChange={setStatusFilter}
@@ -323,8 +323,8 @@ export default function OrganizationsDirectory({
             />
           </div>
 
-          <div className="flex items-center gap-2">
-            <label className="text-xs font-bold text-slate-500">Plan:</label>
+          <div className="flex items-center gap-1.5 min-w-0">
+            <label className="text-xs font-bold text-slate-500 shrink-0">Plan:</label>
             <CustomDropdown
               value={planFilter}
               onChange={setPlanFilter}
@@ -340,7 +340,7 @@ export default function OrganizationsDirectory({
           <button
             onClick={handleExportCSV}
             title="Export CSV"
-            className="p-2.5 border border-slate-200 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all hover:scale-105 active:scale-95 shadow-2xs"
+            className="p-2 border border-slate-200 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all hover:scale-105 active:scale-95 shadow-2xs shrink-0"
           >
             <Download className="w-4 h-4" />
           </button>
