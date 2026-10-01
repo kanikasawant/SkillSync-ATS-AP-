@@ -16,14 +16,14 @@ export default function Header({ searchQuery, setSearchQuery, onNewEntity, onTog
 
         <h2 className="text-sm sm:text-xl font-bold font-serif text-slate-900 tracking-tight leading-tight flex flex-col sm:flex-row sm:items-center sm:gap-1.5">
           <span>TalentAI</span>
-          <span className="text-[11px] sm:text-xl font-medium sm:font-bold text-slate-500 sm:text-slate-900">Control Plane</span>
+          <span className="text-[11px] sm:text-xl font-medium sm:font-bold text-slate-500 sm:text-slate-900">Control Panel</span>
         </h2>
       </div>
 
       {/* Right Action Tools & Search */}
       <div className="flex items-center gap-2 sm:gap-4">
         {/* Global Search Field */}
-        <div 
+        <div
           onClick={() => document.dispatchEvent(new CustomEvent('open-command-palette'))}
           className="relative w-36 sm:w-64 md:w-80 group cursor-pointer"
         >
@@ -43,7 +43,7 @@ export default function Header({ searchQuery, setSearchQuery, onNewEntity, onTog
         </div>
 
         {/* Notification Bell */}
-        <button 
+        <button
           title="Notifications"
           className="p-1.5 sm:p-2 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-xl transition-colors relative"
         >
@@ -52,7 +52,7 @@ export default function Header({ searchQuery, setSearchQuery, onNewEntity, onTog
         </button>
 
         {/* Help Circle */}
-        <button 
+        <button
           title="Help & Documentation"
           className="hidden sm:block p-2 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-xl transition-colors"
         >
