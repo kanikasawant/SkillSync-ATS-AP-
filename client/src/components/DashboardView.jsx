@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { 
-  Briefcase, 
-  Users, 
-  Star, 
-  Calendar, 
-  ArrowRight, 
-  Video, 
-  Clock, 
-  TrendingUp, 
+import {
+  Briefcase,
+  Users,
+  Star,
+  Calendar,
+  ArrowRight,
+  Video,
+  Clock,
+  TrendingUp,
   Sparkles,
   Plus,
   PieChart,
@@ -140,9 +140,9 @@ export default function DashboardView({ onSelectCandidate, onNavigateCandidates,
 
             {isDateDropdownOpen && (
               <>
-                <div 
-                  className="fixed inset-0 z-30" 
-                  onClick={() => setIsDateDropdownOpen(false)} 
+                <div
+                  className="fixed inset-0 z-30"
+                  onClick={() => setIsDateDropdownOpen(false)}
                 />
                 <div className="absolute right-0 mt-2 w-44 bg-white rounded-xl shadow-xl border border-slate-100 py-1.5 z-40 animate-in fade-in slide-in-from-top-2 duration-150">
                   {dateOptions.map((option) => (
@@ -153,11 +153,10 @@ export default function DashboardView({ onSelectCandidate, onNavigateCandidates,
                         setIsDateDropdownOpen(false);
                         if (onShowToast) onShowToast(`Dashboard dataset filtered for ${option}`);
                       }}
-                      className={`w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold transition-colors ${
-                        dateRange === option 
-                          ? 'bg-indigo-50 text-indigo-700 font-bold' 
+                      className={`w-full flex items-center justify-between px-3.5 py-2 text-xs font-semibold transition-colors ${dateRange === option
+                          ? 'bg-indigo-50 text-indigo-700 font-bold'
                           : 'text-slate-700 hover:bg-slate-50'
-                      }`}
+                        }`}
                     >
                       <span>{option}</span>
                       {dateRange === option && <Check className="w-3.5 h-3.5 text-indigo-600" />}
@@ -210,7 +209,7 @@ export default function DashboardView({ onSelectCandidate, onNavigateCandidates,
                   <body>
                     <div class="header">
                       <div>
-                        <div class="logo">TalentAI Control Plane</div>
+                        <div class="logo">TalentAI Control Panel</div>
                         <div style="font-size: 11px; color: #64748b; margin-top: 2px;">Executive Performance & Analytics Report</div>
                       </div>
                       <div style="text-align: right;">
@@ -361,7 +360,7 @@ export default function DashboardView({ onSelectCandidate, onNavigateCandidates,
           {/* Solid Pie Chart & Legend */}
           <div className="flex items-center justify-between gap-6 my-auto py-2">
             {/* Conic Gradient Pie Chart */}
-            <div 
+            <div
               className="w-36 h-36 rounded-full shrink-0 shadow-md border-4 border-white flex items-center justify-center relative transition-transform hover:scale-105 duration-200"
               style={{
                 background: 'conic-gradient(#3633D6 0% 42%, #3B82F6 42% 74%, #8B5CF6 74% 90%, #10B981 90% 100%)'
